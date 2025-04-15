@@ -42,6 +42,7 @@ feed_composition = {
 }
 '''
 
+# Function to interpolate permeability values based on the data provided.
 def interpolate_permeability(x, x_data, y_data):
     return np.interp(x, x_data, y_data)
 
