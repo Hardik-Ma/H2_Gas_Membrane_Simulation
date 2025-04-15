@@ -46,6 +46,7 @@ feed_composition = {
 def interpolate_permeability(x, x_data, y_data):
     return np.interp(x, x_data, y_data)
 
+# Function to calculate the permeablity data for given Temperature, Pressure and mole fraction of the components
 def get_permeability_data(temp, pressure, mole_fraction):
     # Data for permeability in Barrer
     # The data is obtained from a research paper and this is for a perticular membrane
